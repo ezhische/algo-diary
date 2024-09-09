@@ -2,7 +2,7 @@
 
 **Решение**
 ```go
-func canPermutatePalindrome(s string) bool {
+func canPermutePalindrome(s string) bool {
 	letters := make(map[byte]int)
 	for i := 0; i < len(s); i++ {
 		letters[s[i]]++
